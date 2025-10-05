@@ -14,5 +14,22 @@ public class Main {
         linkedList.prepend(25);
 
         linkedList.display();
+
+        // linkedList.reverse();
+
+        // linkedList.display();
+
+        System.out.println(linkedList.middleNode().value);
+
+        linkedList.display();
+
+        Node kth= linkedList.kthNodeFromEnd(4);
+
+        System.out.println(kth.value);
+
+        linkedList.removeKthFromEnd(2);
+
+        linkedList.display();
+
     }
 }
