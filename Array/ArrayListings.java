@@ -16,5 +16,8 @@ public class ArrayListings {
 
         System.out.println(Arrays.toString(arrayStrings));
 
+        byte num= 12;
+        System.out.println(num);
+
     }
 }

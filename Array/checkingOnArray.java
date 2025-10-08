@@ -10,7 +10,7 @@ public class checkingOnArray {
         // Arrays.fill(newArr, 10);
         // System.out.println(Arrays.toString(newArr));
 
-        int[] firstArray= RandomJava.randomNumber(10);
+        int[] firstArray= RandomJava.randomNumber();
         // System.out.println(Arrays.toString(firstArray));
 
         int[] secondArray= Arrays.copyOf(firstArray, 10);
