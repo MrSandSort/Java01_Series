@@ -1,4 +1,4 @@
-package Curriculum;
+
 
 import java.util.HashMap;
 
@@ -10,14 +10,12 @@ public class retDup {
     }
 
     public static void retDuplicates(String str){
-        String newStr= str.toLowerCase();
-        String[] st= newStr.split("");
 
-        HashMap<String, Integer> hp= new HashMap<>();
+        HashMap<Character, Integer> hp= new HashMap<>();
         StringBuilder duplicates= new StringBuilder();
         StringBuilder nonDuplicates= new StringBuilder();
 
-        for(String ch:st){
+        for(char ch:str.toCharArray()){
             hp.put(ch, hp.getOrDefault(ch, 0)+1);
         }
 
